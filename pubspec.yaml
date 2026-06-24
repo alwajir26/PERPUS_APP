@@ -1,0 +1,95 @@
+name: perpus_app
+description: Aplikasi Manajemen Perpustakaan Profesional dengan Flutter Material Design 3.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.0
+  riverpod_annotation: ^2.1.0
+  
+  # Database & Storage
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  shared_preferences: ^2.2.0
+  
+  # UI Enhancement
+  google_fonts: ^6.1.0
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.7.0
+  
+  # Forms & Validation
+  flutter_form_builder: ^9.1.0
+  form_builder_validators: ^10.2.0
+  
+  # Image Handling
+  image_picker: ^1.0.0
+  cached_network_image: ^3.3.0
+  
+  # PDF & Export
+  pdf: ^3.10.0
+  printing: ^5.11.0
+  
+  # Charts & Graphs
+  fl_chart: ^0.63.0
+  
+  # Date Picker
+  table_calendar: ^3.0.9
+  
+  # Loading & Animation
+  shimmer: ^3.0.0
+  lottie: ^2.7.0
+  
+  # QR Code
+  qr_flutter: ^4.1.0
+  
+  # Navigation
+  go_router: ^12.1.0
+  
+  # Connectivity
+  connectivity_plus: ^5.0.0
+  
+  # HTTP & Networking
+  http: ^1.1.0
+  dio: ^5.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.0
+  riverpod_generator: ^2.3.0
+  json_serializable: ^6.7.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+    - assets/fonts/
+  
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 800
